@@ -1,4 +1,4 @@
-# Título do Projeto
+# DevTask
 
 `CURSO`
 
@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
+Tomaz Martins Pereira Pontes
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Orientador
 
-* Nome completo do professor
+Clóvis Lemos Tavares
 
 # Documentação
 
