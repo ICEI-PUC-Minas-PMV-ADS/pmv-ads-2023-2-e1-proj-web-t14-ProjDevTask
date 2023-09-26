@@ -1,26 +1,38 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Gerenciar tarefas no dia a dia dos programadores é algo extremamente importante no desenvolvimento de software, devido a diversas demandas, prazos e mudanças no projeto. Segundo Redação Cronoapp (2017), “Diante das necessidades de softwares cada vez mais funcionais e sofisticados, os desenvolvedores precisam encontrar soluções para superar os obstáculos e atender a demanda de um público cada vez mais exigente, incluindo as grandes corporações.” 
+
+ 
+
+Dentre as dificuldades enfrentadas, observa-se que a falha na gestão de tarefas pode levar a atrasos e retrabalho, assim como a insatisfação de clientes. Portanto, é importante encontrar soluções para gerir essas tarefas com mais eficiência. 
+
+ 
+
+Dessa forma, torna-se necessário a criação de um ambiente onde os colaboradores tenham conhecimento de suas tarefas, prioridades e prazos a serem cumpridos. 
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+O problema que esse projeto visa abordar é a falta de gestão no desenvolvimento de software. Visto que devido a rotina e mudanças diárias os desenvolvedores possuem dificuldade na condução de tarefas e prioridades.  
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo deste projeto é o desenvolvimento de uma solução de fácil uso que permita aos desenvolvedores e gestores a busca e troca de tarefas a serem realizadas no desenvolvimento de um projeto 
+Como objetivos específicos podemos destacar: 
+- Auxiliar no direcionamento de tarefas para a equipe 
+- Evitar o retrabalho no desenvolvimento  
+- Acompanhamento de produtividade  
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+De acordo com Cris Santos (2023):  
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+ 
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+“O backlog desempenha um papel fundamental no desenvolvimento de software, permitindo que as equipes de desenvolvimento organizem, priorizem e acompanhem as tarefas do projeto. (...) Portanto, é essencial investir tempo e esforço na organização adequada do backlog e no planejamento eficiente das tarefas.”  
+
+ 
+
+Portanto, a criação de um ambiente para monitorar os resultados e andamento do projeto é importante  
+
 
 ## Público-Alvo
 
