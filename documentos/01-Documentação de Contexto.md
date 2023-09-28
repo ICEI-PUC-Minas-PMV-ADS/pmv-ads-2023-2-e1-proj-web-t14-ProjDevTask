@@ -17,18 +17,10 @@ Como objetivos específicos podemos destacar:
 ## Justificativa
 
 De acordo com Cris Santos (2023):  
-“O backlog desempenha um papel fundamental no desenvolvimento de software, permitindo que as equipes de desenvolvimento organizem, priorizem e acompanhem as tarefas do projeto. (...) Portanto, é essencial investir tempo e esforço na organização adequada do backlog e no planejamento eficiente das tarefas.”  
-Portanto, a criação de um ambiente para monitorar os resultados e andamento do projeto é importante afim de trazer uma maior eficiência e velocidade nos resultados da equipe
+“O backlog desempenha um papel fundamental no desenvolvimento de software, permitindo que as equipes de desenvolvimento organizem, priorizem e acompanhem as tarefas do projeto. (...) Portanto, é essencial investir tempo e esforço na organização adequada do backlog e no planejamento eficiente das tarefas”. Portanto, a criação de um ambiente para monitorar os resultados e andamento do projeto é importante afim de trazer uma maior eficiência e velocidade nos resultados da equipe
 
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-
+Embora o planejamento de tarefas esteja presente em todas as áreas do dia a dia tanto da vida pessoal quanto profissional nosso foco são empresas de desenvolvimento de software que possuem gestores e programadores.
+Assim, estabeleceu-se como público-alvo homens e mulheres que buscam maior eficiencia e organização na rotina de desenvolvimento de softwares, pois um mal gerenciamento de funções podem afetar no desdobramento do projeto.
