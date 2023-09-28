@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 * Tomaz Martins Pereira Pontes
 * Bruno Almeida Silveira Bezerra
-* Nome completo do aluno 3
+* Bruno Cândido Silva Almeida
 * Nome completo do aluno 4
 * Nome completo do aluno 5
 * Nome completo do aluno 6
