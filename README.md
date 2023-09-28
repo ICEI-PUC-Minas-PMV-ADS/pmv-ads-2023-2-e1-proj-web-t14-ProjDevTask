@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Bruno Almeida Silveira Bezerra
 * Bruno Cândido Silva Almeida
 * Jose Lucas dos Santos
-* Nome completo do aluno 5
+* Nathan Vitorino Sergio Rocha
 * Nome completo do aluno 6
 
 ## Orientador
