@@ -33,13 +33,10 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   <li>Gestão (Project Management)</li>
 </ul>
 
-<figure> 
-  <img src="https://i.imgur.com/6k44Tfp.png"
-</figure> 
+  <img src="https://i.imgur.com/gmxcHW7.png">
+
   
 ### Ferramentas
-
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
@@ -50,8 +47,21 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface                | Figma                              | http://....                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | [Gestão](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/699/views/1)                          |
 | Hospedagem                          | Vercel                      | http://....                            |
+| Ferramentas de comunicação | Teams, Whatsapp e Discord | [Teams](https://teams.microsoft.com/l/channel/19%3aRj4hyp8v22GSYrPBT83LQed5nE2efAkaEM-v87z9OLw1%40thread.tacv2/Geral?groupId=8d09b33d-e831-45b7-adaf-dfa0fa9846f4&tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161) |
 
+- Repositório de Código Fonte - *Github/Classroom*.
+- Editor de código - *Visual Studio Code*.
+- Projeto de Interface - *Figma*.
+- Gerenciamento do Projeto - *Github/Projects*.
+- Hospedagem - *Vercel*.
+- Ferramentas de comunicação - *Teams, Whatsapp e Discord*.
+
+A escolha do Visual Studio Code como ambiente de código se deve ao fato de ser uma IDE de fácil acesso e compreensão, além de possuir uma integração com o sistema de versão.
+Já a escolha para a prototipagem do projeto foi o Figma, plataforma cujo a qual membros do projeto já possuem experiência.
+Referente a gestão do projeto, optamos por utilizar o próprio GitHub Projects devido a sua integração ao repositório.
+Para hospedagem, escolhemos o Vercel, serviço de hospedagem gratuito e referência no mercado.
+As ferramentas de comunicação utilizadas já eram utilizadas por todos os membros do projeto e por isso foram escolhidas, providenciando uma rápida comunicação tanto por texto quanto por voz.
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do serão inseridos na pasta codigo-fonte.
