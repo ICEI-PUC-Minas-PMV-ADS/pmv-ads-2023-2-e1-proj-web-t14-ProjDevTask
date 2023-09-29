@@ -13,22 +13,39 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Melhor organização e contato com o empregador </td>
+<td>Melhor organização e contato com o gestor </td>
 </tr>
 </tbody>
 </table>
 <table>
+   <table>
    <tbody>
 <tr align=center>
-<th colspan="2">Empregador</th>
+<th colspan="2">Gestor</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Emprega o programador, delega tarefas.</td>
+<td width="600px">Pessoa que delega tarefas ao programador e vê o progresso</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>Melhor organização e acessibilidade na hora de exigir que prazos sejam cumpridos e organizar o fluxo de trabalho </td>
+</tr>
+</tbody>
+</table>
+<table>
+   <table>
+   <tbody>
+<tr align=center>
+<th colspan="3">Empregador</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Dono da empresa, emprega o gestor e o programador, delega tarefas e vê o progresso</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Acompanhar o trabalho tanto do programador quanto do gestor, delegar tarefas caso julgue necessário</td>
 </tr>
 </tbody>
 </table>
@@ -37,8 +54,14 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Programador | Quero receber e delegar minhas tarefas diárias de forma organizada. | Trabalhar melhor, entregar no prazo correto.|
-| Empregador | Quero delegar tarefas diárias aos meus programadores e visualizar o progresso deles.  | Exigir que os prazos sejam cumpridos, organizar o fluxo de trabalho.  |
+| Programador | Quero receber minhas tarefas diárias de forma organizada. | Aumentar minha produtividade |
+| Programador | Quero poder adicionar tarefas diárias para mim mesmo | Organizar meu trabalho do dia |
+| Programador | Quero visualizar o prazo máximo para uma tarefa | Entregar no prazo correto |
+| Gestor | Quero delegar tarefas diárias aos meus programadores | Organizar o fluxo de trabalho  |
+| Gestor | Quero delegar prazos para tarefas | Exigir que os prazos sejam cumpridos |
+| Empregador | Quero visualizar o progresso do Gestor | Exigir excelência |
+| Empregador | Quero visualizar o progresso do Programador | Observar o progresso da produção |
+| Empregador | Quero delegar tarefas para o Programador | Adicionar novas tarefas na produção |
 
 ## Requisitos do Projeto
 
