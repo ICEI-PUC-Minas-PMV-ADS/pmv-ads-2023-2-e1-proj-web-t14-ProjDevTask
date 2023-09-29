@@ -1,4 +1,5 @@
 # DevTask
+<p align="center"><img src="documentos/img/devtasklogo.png" width="300px"></p>
 
 `Análise e Desenvolvimento de Sistemas`
 
