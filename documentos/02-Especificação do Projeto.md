@@ -65,7 +65,9 @@
 |--------|-------------------------|----|
 | RNF-01 |  Vamos utilizar HTML, CSS e JavaScript   | Alta | 
 | RNF-02 | Nosso projeto deve conter: HomePage, Página de Login, Página de Registro, Dashboard de Tarefas  | Alta | 
-| RNF-03 | Figma para protótipagem | Média | 
+| RNF-03 | Criação de uma Logo  | Alta | 
+| RNF-04 | Palheta de Cores e Layout padrão  | Alta | 
+| RNF-05 | Figma para protótipagem | Média | 
 
 **Prioridade: Alta / Média / Baixa. 
 
