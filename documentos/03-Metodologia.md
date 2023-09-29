@@ -14,7 +14,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 A equipe está organizada da seguinte maneira:
 > - **Scrum Master:** Tomaz Martins Pereira Pontes
-> - **Product Owner:** Bruno Cândido Silva Almeida 
+> - **Product Owner:** Bruno de Almeida Silveira Bezerra 
 > - **Equipe de Desenvolvimento:** Jose Lucas dos Santos, Matheus Martins de Assis, Rafaga Francisco Araujo Coimbra 
 > - **Equipe de Design:** Bruno Cândido Silva Almeida, Nathan Vitorino Sergio Rocha
 
