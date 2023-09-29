@@ -6,8 +6,7 @@
 
 `2023/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
-
+Gerenciador de tarefas para desenvolvedores de software
 ## Integrantes
 
 * Tomaz Martins Pereira Pontes
