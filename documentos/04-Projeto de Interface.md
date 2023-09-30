@@ -20,9 +20,31 @@ Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+1 - Inicio
+![inicio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/6859ca6f-eef7-4117-9630-35bbf9424b69)
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
+2- Login
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/7f173b26-d0b0-47be-a426-ac8a7968bb7f)
+2.1 - Senha
+![senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/33d06815-ea36-4c7c-ba5b-4c90311b9a0f)
+
+3- Cadastro
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/9cc3e58a-e99d-4d9a-bb9c-03c6d10fbb70)
+
+4- Dashboard
+![dashboard](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/ccf6a993-5254-41d3-9186-a3be51f69d28)
+
+4.1- Nova tarefa
+![nova tarefa](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/00b254ad-39e8-4414-b3e5-9b5e762858a1)
+
+5- Perfil
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/4f8c54c6-c9f1-4626-adb2-a090f16dfcc3)
+
+6- Chat
+![chat](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/0eed0859-69af-4074-a135-7ae56b7de987)
+
+7- Criar Projeto
+![novoprojeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/62924010/f5f2892b-8d03-4ead-8488-958b7018827b)
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
