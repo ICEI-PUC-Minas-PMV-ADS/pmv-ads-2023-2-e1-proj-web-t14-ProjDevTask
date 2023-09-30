@@ -15,7 +15,7 @@ Gerenciador de tarefas para desenvolvedores de software
 * Bruno Cândido Silva Almeida
 * Jose Lucas dos Santos
 * Nathan Vitorino Sergio Rocha
-* Nome completo do aluno 6
+* Matheus Martins de Assis
 
 ## Orientador
 
