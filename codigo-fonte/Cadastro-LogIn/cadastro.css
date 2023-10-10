@@ -1,0 +1,24 @@
+/* NAVBAR */
+.textoNav{
+    font-size: 26px!important;
+    margin-left: 5vh;
+}
+
+/* BOTAO DE LOGIN */
+.link-login{
+    padding: 6px 28px;
+
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s;
+    border: 3px solid #45C084;
+    border-radius: 10px;
+    color: #45C084;;
+}
+:hover.link-login{
+    color: whitesmoke;
+    border-color: #2c8158;
+    background-color: #2c8158;
+}
+
