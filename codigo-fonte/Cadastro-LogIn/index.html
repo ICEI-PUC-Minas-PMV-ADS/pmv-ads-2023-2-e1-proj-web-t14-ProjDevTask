@@ -13,36 +13,44 @@
     />
   </head>
 
-  <body>
-    <!-- navbar -->
-    <nav class="navbar bg-body-secondary p-xxl-3">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bolder textoNav"> DevTask </a>
-        <form class="d-flex" role="search">
-          <a class="btn btn-success fs-5" href="">Já tem uma Conta? | Login</a>
-        </form>
-      </div>
-    </nav>
+  <body class="bg-dark">
+    <header>
+      <!-- navbar -->
+      <nav class="navbar p-xxl-3">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder textoNav"> DevTask </a>
+          <form class="d-flex" role="search">
+            <a class="btn btn-success fs-5 bg-gradient" href="login.html"
+              >Já tem uma Conta? | Login</a
+            >
+          </form>
+        </div>
+      </nav>
+    </header>
 
-    <!-- formulario -->
-    <div class="d-xxl-flex align-items-center justify-content-center mt-xxl-5">
-      <form class="formulario col-sm-5 mt-xl-5">
-
+    <main>
+      <!-- formulario -->
+      <div
+        class="d-xxl-flex align-items-center justify-content-center mt-xxl-5"
+      >
+        <form class="formulario col-sm-5 mt-xl-5">
           <!-- titulo -->
-          <p class="fw-bold justify-content-center align-items-center d-flex fs-4 mb-4">
+          <p
+            class="fw-bold justify-content-center align-items-center d-flex fs-4 mb-4 text-white"
+          >
             Faça já seu cadastro! | Preencha as Informações
           </p>
 
-        <div class="form-floating mb-3">
-          <!--nome-->
-          <input
-            type="text"
-            class="form-control"
-            name=""
-            id=""
-            placeholder=""
-          />
-          <label for="nome">Nome</label>
+          <div class="form-floating mb-3">
+            <!--nome-->
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id=""
+              placeholder=""
+            />
+            <label for="nome">Nome</label>
           </div>
 
           <div class="form-floating mb-3">
@@ -80,14 +88,19 @@
             />
             <label for="senha">Senha</label>
           </div>
-        <div class="d-grid gap-2 mt-xl-5">
-          <button type="submit" class="btn btn-outline-success border-2">
-            CADASTRAR
-          </button>
-        </div>
-        <a href="#" class="badge bg-secondary-subtle text-dark-emphasis mt-lg-4 d-grid p-2">Já estou cadastrado.</a>     
-      </form>
-    </div>
+          <div class="d-grid gap-2 mt-md-4">
+            <button type="submit" class="btn btn-success border-2 bg-gradient btnCadastro">
+              CADASTRAR
+            </button>
+          </div>
+          <a
+            href="login.html"
+            class="badge bg-secondary text-dark mt-lg-4 d-grid p-2"
+            >Já estou cadastrado.</a
+          >
+        </form>
+      </div>
+    </main>
 
     <!-- bootstrap JS -->
     <script
