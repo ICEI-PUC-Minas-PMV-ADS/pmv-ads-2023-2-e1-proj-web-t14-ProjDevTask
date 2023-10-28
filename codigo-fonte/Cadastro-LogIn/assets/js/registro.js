@@ -95,3 +95,34 @@ senhaInput.addEventListener('input', function () {
         submitButton.disabled = false;
     }
 });
+
+const loginForm = document.getElementById('login-form');
+loginForm.addEventListener('submit', function (event) {
+    event.preventDefault(); 
+
+    const userData = {
+        tipo: tipoInput.value,
+        nome: nomeInput.value,
+        cpf: cpfInput.value,
+        email: emailInput.value,
+        senha: senhaInput.value,
+    };
+
+    enviarDadosParaServidor(userData);
+});
+
+function enviarDadosParaServidor(userData) {
+    const xhr = new XMLHttpRequest();
+    const url = 'SÓ UM EXEMPLO DE CÓDIGO JÁ QUE ESTAMOS UTILIZANDO O GITHUB PAGES';
+    xhr.open('POST', url, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            window.href = 'https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/codigo-fonte/Cadastro-LogIn/login.html';
+        }
+    };
+    const jsonData = JSON.stringify(userData);
+
+    xhr.send(jsonData);
+}
