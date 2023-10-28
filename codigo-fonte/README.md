@@ -4,7 +4,7 @@
 
 Nesse primeiro eixo do curso, para simplificar a utilização do Git e a organização das pastas e artefatos de implementação no sistema de arquivos, seguimos o seguinte padrão de organização:
 - Pasta src (root do projeto): index.html, index.css, index.js - **Desenvolvedora responsável:** Tomaz Martins Pereira Pontes.
-- Pasta src\Cadasttro-LogIn: login.html, registro.html, loginreg.css, reset.css - **Desenvolvedor responsável:** Tomaz Martins Pereira Pontes, Matheus Martins de Assis, Jose Lucas dos Santos
+- Pasta src\Cadastro-LogIn: login.html, registro.html, loginreg.css, reset.css - **Desenvolvedor responsável:** Tomaz Martins Pereira Pontes, Matheus Martins de Assis, Jose Lucas dos Santos
 
 ## Visualização do Site
 

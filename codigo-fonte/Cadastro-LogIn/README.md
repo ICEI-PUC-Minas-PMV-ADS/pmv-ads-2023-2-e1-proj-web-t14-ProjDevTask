@@ -1,7 +1,7 @@
 ## Aluno Responsável pelo Desenvolvimento
-- Tomaz Martins Pereira Pontes [v1.0.0]
-- Matheus Martins de Assis [v0.0.1]
-- Jose Lucas dos Santos [v0.0.1]
+- Tomaz Martins Pereira Pontes **[v1.0.0]**
+- Matheus Martins de Assis **[v0.0.1]**
+- Jose Lucas dos Santos **[v0.0.1]**
 ## Instalação do Site
 
 Utilizamos o Github Pages.
