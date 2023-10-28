@@ -8,7 +8,7 @@ const empty = document.getElementById('empty');
 const senhaErrada = document.getElementById('senhaErrada');
 const submitButton = document.getElementById('submitButton');
 tipoInput.addEventListener('change', function () {
-    if (tipoInput.value === 'mentor') { 
+    if (tipoInput.value === 'programador') { 
         categoriasInput.style.display = 'block';
         descricaoInput.style.display = 'block'; 
     } else {
