@@ -1,17 +1,12 @@
 # Template padrão da Aplicação
 
-O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção do menu responsivo.
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção de um FAQ responsivo na página index, além de formulários dinâmicos na página de login e registro.
 
-As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
+As páginas terão os elementos de identidade visual citados abaixo:
 
-Cores: RGB: ;
-Font-family: ;
-Font-size: .
+- **Cores:** #28CB8B; #263238; #4CAF4F; #103E13; #1B5E1F; #237D31; #FFFFFF;
+- **Font-family:** 'Raleway', sans-serif;
+- **Font-weight:** 300; 500; 600; 700; 800;
+- **Font-size:** 16px;
 
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/assets/94735704/1017fd72-a9a8-4126-b14e-941512b7b0e7)
