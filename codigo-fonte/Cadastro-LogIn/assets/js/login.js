@@ -36,3 +36,24 @@ senhaInput.addEventListener('input', function () {
         }
     });
 
+
+    const loginForm = document.getElementById('login-form');
+loginForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const emailInput = document.getElementById('email-login');
+    const senhaInput = document.getElementById('senha-login');
+    const storedData = JSON.parse(localStorage.getItem('userData'));
+
+    if (storedData) {
+        const storedEmail = storedData.email;
+        const storedSenha = storedData.senha;
+        if (emailInput.value === storedEmail && senhaInput.value === storedSenha) {
+           alert('Login bem-sucedido!');
+        } else {
+            alert('Login falhou. Verifique suas credenciais.');
+        }
+    } else {
+        alert('Não há dados de usuário registrados.');
+    }
+});
