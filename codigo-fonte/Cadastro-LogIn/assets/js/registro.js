@@ -111,4 +111,5 @@ loginForm.addEventListener('submit', function (event) {
     const jsonData = JSON.stringify(userData);
 
     localStorage.setItem('userData', jsonData);
+    window.location.href = 'login.html';
 });
