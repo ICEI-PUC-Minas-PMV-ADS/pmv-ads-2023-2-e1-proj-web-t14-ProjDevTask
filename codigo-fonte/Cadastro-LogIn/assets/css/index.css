@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800&display=swap');
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./porque.css);
+@import url(./comofunciona.css);
+@import url(./categorias.css);
+@import url(./faq.css);
+@import url(./footer.css);
+
+:root {
+    --font-color: #3B3561;
+    --bold-color: #1F1B36;
+    --border-color: #38CCB2;
+    --fourth-color: #5B5296;
+    --fifth-color: #B0ACCD;
+    --sixth-color: #E1DDFF;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--font-color);
+}
+
+strong {
+    font-weight: 700;
+    color: var(--bold-color);
+}
+
+html {
+    max-width: 1920px;
+    width: 100%;
+}
+
+@media (max-width: 820px) {
+    html {
+        max-width: 820px;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        max-width: 1024px;
+    }
+}
+    
+@media (max-width: 480px) {
+    html {
+        max-width: 480px;
+    }
+  }

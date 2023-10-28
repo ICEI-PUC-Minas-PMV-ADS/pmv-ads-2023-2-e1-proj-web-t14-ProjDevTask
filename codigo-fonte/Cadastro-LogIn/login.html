@@ -1,93 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>DevTask | Login</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="cadastro.css" />
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-  </head>
-
-  <body class="bg-dark">
-    <header>
-      <!-- navbar -->
-      <nav class="navbar p-xxl-3">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bolder textoNav"> DevTask </a>
-          <form class="d-flex" role="search">
-            <a class="btn btn-success fs-5 bg-gradient" href="index.html"
-              >Ainda Não Possui uma conta? | Cadastre-se</a
-            >
-          </form>
-        </div>
-      </nav>
-    </header>
-
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTask - Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/img/7.ico">
+    <link rel="stylesheet" href="./assets/css/loginreg.css">
+</head>
+<body>
     <main>
-      <div
-        class="d-xxl-flex align-items-center justify-content-center mt-xxl-5"
-      >
-        <form class="formulario col-sm-3 mt-xl-5">
-          <!-- texto -->
-          <p
-            class="fw-bold justify-content-center align-items-center d-flex fs-4 mb-5 text-white"
-          >
-            Bem-Vindo! | Faça seu Login.
-          </p>
-          <div class="form-floating mb-5">
-            <input
-              type="email"
-              class="form-control"
-              name=""
-              id=""
-              placeholder=""
-            />
-            <label for="">Email</label>
-          </div>
-
-          <div class="form-floating mb-5">
-            <input
-              type="password"
-              class="form-control"
-              name=""
-              id=""
-              placeholder=""
-            />
-            <label for="">Senha</label>
-          </div>
-          <div class="d-grid gap-2 mt-md-4">
-            <button type="submit" class="btn btn-success border-2 bg-gradient btnCadastro">
-              FAZER LOGIN
-            </button>
-          </div>
-          <a
-            href="index.html"
-            class="badge bg-secondary text-dark mt-lg-4 d-grid p-2"
-            >Não possuo uma conta.</a
-          >
-        </form>
-      </div>
+        <div class="mainDiv">
+        <div class="left">
+            <img src="./assets/img/devtasklogo.png" alt="DevTask" class="textoImg">
+        </div>
+        <div class="right">
+           <h1 class="h1main">LOGIN</h1>
+           <div class="login-container">
+            <form id="login-form">
+                <div class="coolinput">
+                    <label for="input" class="text">E-mail</label>
+                    <input id="email" type="email" required placeholder="Digite seu e-mail..." name="email" class="input">
+                </div>
+                <div class="coolinput">
+                    <div class="password-container">
+                    <label for="input" class="text">Senha</label>
+                    <input id="senha" type="password" required placeholder="Digite sua senha..." name="senha" class="input">
+                 <div class="toggle-password">
+                    <img src="./assets/img/Eye.png" alt="Toggle Password">
+                    </div>
+                </div>
+                    <div id="senhaErrada"></div>
+                 </div>
+                <div class="remember-forgot">
+                    <div class="remember-me">
+                        <input type="checkbox" id="lembrar" name="lembrar">
+                        <label for="lembrar">Mantenha-me conectado</label>
+                    </div>
+                    <a href="#" class="forgot-password">Esqueci minha senha</a>
+                </div>
+                <button type="submit" id="submitButton" class="button_login loginbotao">Entrar <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                    <path d="M12.9596 5.45962C13.2135 5.20578 13.2135 4.79422 12.9596 4.54038L8.82304 0.403806C8.5692 0.149965 8.15765 0.149965 7.90381 0.403806C7.64997 0.657647 7.64997 1.0692 7.90381 1.32304L11.5808 5L7.90381 8.67696C7.64997 8.9308 7.64997 9.34235 7.90381 9.59619C8.15765 9.85003 8.5692 9.85003 8.82304 9.59619L12.9596 5.45962ZM0.5 5.65H12.5V4.35H0.5V5.65Z" fill="white"/>
+                  </svg></a></button>
+            </form>
+            <hr class="divisoria">
+        <div class="cadastro">
+            <p class="paragrafo">Ainda não tem uma conta? <a href="cadastro.html" class="cadastro"><u>Cadastre-se grátis!</u></a></p>
+            <br>
+            <a class="cadastro" href="index.html">Voltar a página inicial</a>
+        </div>
+        </div>
+    
+        </div>
     </main>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script src="./assets/js/login.js"></script>
+
+</body>
 </html>

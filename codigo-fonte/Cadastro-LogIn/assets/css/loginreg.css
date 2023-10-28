@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800&display=swap');
+@import url(./reset.css);
+
+:root {
+    --font-color: #28CB8B;
+    --bold-color: #263238;
+    --border-color: #219413;
+    --fourth-color: #103E13;
+    --fifth-color: #1B5E1F;
+    --sixth-color: #237D31;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--font-color);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    max-height: 100vh;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 55%;
+    height: 100vh;
+    background-image: url(../img/imagemlogin.png);
+    background-repeat: no-repeat;
+}
+
+.right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    position: relative;
+    top: 45%;
+    left: 15%;
+}
+
+.h1main {
+    color: #219413;
+font-size: 2rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-left: 15px;
+}
+
+.loginbotao {
+color: var(--white);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+border-radius: 47px;
+background: #219413;
+width: 146px;
+height: 49px;
+border: 0px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+.register {
+    width: 200px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 20px; 
+    top: 52%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textoImg {
+    position: relative;
+    top: 25.5%;
+    left: 18%;
+    width: 50%;
+}
+
+.login-container {
+    max-width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-left: 2px;
+}
+
+.login-container input, #tipo, #categorias {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #219413;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    height: 28px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+#tipo, #categorias {
+    color: var(--font-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    width: 100%;
+    height: 50px;
+}
+
+.login-container .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.forgot-password {
+    color: var(--border-color);
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+
+.login-container .remember-me label {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: var(--font-color);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+}
+
+.login-container .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+
+.login-container .remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-container button:hover {
+    background-color: #103E13;
+}
+
+.login-container input[type="checkbox"] {
+    appearance: none;
+    width: 8px;
+    height: 8px;
+    background-color: #28CB8B;
+    border: 1px solid rgba(209, 209, 209, 0.50);
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-container input[type="checkbox"]:checked {
+    background-color: white;
+    border: 1px solid #1F1B36;
+}
+
+.divisoria {
+    align-self: center;
+    width: 90%;
+}
+
+.cadastro {
+    color: var(--border-color);
+font-family: Raleway;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.17px;
+margin-top: 20px;
+}
+
+.paragrafo {
+    color: var(--font-color);
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: static;
+  }
+  
+  .coolinput label.text {
+    font-size: 0.75rem;
+    color: var(--font-color);
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: var(--white);
+    width: fit-content;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #237D31 solid;
+    border-radius: 5px;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+
+@media only screen and (max-width : 1257px) {
+    .left {
+        display: none;
+    }
+    .mainDiv {
+        justify-content: center;
+        align-items: center;
+        padding: 20% 5%;
+    }
+    
+}
+
+@media only screen and (max-width : 820px) {
+
+
+}
+
+@media only screen and (max-width : 480px) {
+}
