@@ -58,8 +58,8 @@ text-transform: uppercase;
 padding-bottom: 10px;
 }
 
-.left__footer {
-    width: 30;
+.linkpg:hover {
+    color: #31BEA5;
 }
 
 @media only screen 
