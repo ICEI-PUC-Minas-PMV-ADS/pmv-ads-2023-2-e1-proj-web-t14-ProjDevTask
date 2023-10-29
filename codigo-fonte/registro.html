@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTask - cadastro</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/devtasklogo.png">
+    <link rel="stylesheet" href="./assets/css/loginreg.css">
+</head>
+<body>
+    <main>
+        <div class="mainDiv">
+        <div class="left">
+            <img src="./assets/img/devtasklogo.png" alt="DevTask" class="textoImg">
+        </div>
+        <div class="right">
+           <h1 class="h1main">CADASTRAR-SE</h1>
+           <div class="login-container">
+            <form id="login-form">
+                <div class="coolinput">
+            <label for="tipo" class="text">O que você busca?</label>
+            <select id="tipo" name="Tipo">
+              <option value="empregador">Quero ser Empregador</option>
+            <option value="gestor">Quero ser Gestor</option>
+            <option value="programador">Quero ser Programador</option>
+                </select>
+                </div>
+                <div class="coolinput">
+                    <label for="nome" class="text">Nome Completo</label>
+            </div>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo...">
+                <div class="coolinput">
+                <label for="cpf" class="text">Documento</label>
+            </div>
+                <input type="text" id="cpfField" name="cpf" required placeholder="Digite seu CPF...">
+                <div id="empty"></div>
+                <div class="coolinput">
+                <label for="Categorias" id="catStyle" class="text" style="display: none;">Área de Atuação</label>
+                <select id="categorias" name="Categorias" style="display: none;">
+                    <option value="Web">Desenvolvimento Web</option>
+                    <option value="Android">Desenvolvimento Android</option>
+                    <option value="IOS">Desenvolvimento IOS</option>
+                    <option value="Backend">Desenvolvimento Back-End</option>
+                    <option value="BancoDeDados">Especialista em Banco de Dados</option>
+                </select>
+            </div>
+                <div class="coolinput">
+                    <label for="input" class="text">E-mail</label>
+                    <input id="email" type="email" required placeholder="Digite seu e-mail..." name="email" class="input">
+                </div>
+                <div class="coolinput">
+                    <div class="password-container">
+                    <label for="input" class="text">Senha</label>
+                    <input id="senha" type="password" required placeholder="Digite sua senha..." name="senha" class="input">
+                 <div class="toggle-password">
+                    <img src="./assets/img/Eye.png" alt="Toggle Password">
+                    </div>
+                </div>
+                    <div id="senhaErrada"></div>
+                 </div>
+                <button id="submitButton" type="submit"  class="register loginbotao">Cadastrar <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                    <path d="M12.9596 5.45962C13.2135 5.20578 13.2135 4.79422 12.9596 4.54038L8.82304 0.403806C8.5692 0.149965 8.15765 0.149965 7.90381 0.403806C7.64997 0.657647 7.64997 1.0692 7.90381 1.32304L11.5808 5L7.90381 8.67696C7.64997 8.9308 7.64997 9.34235 7.90381 9.59619C8.15765 9.85003 8.5692 9.85003 8.82304 9.59619L12.9596 5.45962ZM0.5 5.65H12.5V4.35H0.5V5.65Z" fill="white"/>
+                  </svg></button>
+            </form>
+            <hr class="divisoria">
+        <div class="cadastro">
+            <p class="paragrafo">Já tem uma conta? <a href="login.html" class="cadastro"><u>Fazer login</u></a></p>
+            <br>
+            <a class="cadastro" href="./indexpage.html">Voltar a página inicial</a>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/registro.js"></script>
+</body>
+</html>

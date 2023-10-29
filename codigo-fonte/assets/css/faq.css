@@ -1,0 +1,162 @@
+.faqMain {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faqTitleMain {
+    text-align: center;
+}
+
+.faqs-container {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .faq {
+    background-color: var(--font-color);
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    transition: 0.3s ease;
+  }
+  
+  .faq.active {
+    background: linear-gradient(91.33deg, rgba(255, 255, 255, 0.98) 0.27%, rgba(255, 255, 255, 0.294) 98.45%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  
+  .faq-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0 35px 0 0;
+    width: 80%;
+  }
+
+  .faq.active .faq-title {
+    color: #3B3561;
+  }
+  
+  .faq-text {
+    display: none;
+    margin: 30px 0 0;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  .faq.active .faq-text {
+    display: block;
+  }
+  
+  .faq-toggle {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    background-image: url('../img/+.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center;
+  }
+  
+  .faq-toggle:focus {
+    outline: none;
+  }
+  
+  .faq.active .faq-toggle {
+    background-image: url('../img/-.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .faq-toggle .fa-times {
+    display: none;
+  }
+  
+  .faq.active .faq-toggle .fa-times {
+    display: block;
+  }
+  
+  .faq-toggle .fa-chevron-down {
+    background-image: url('../img/-.svg');
+    background-repeat: no-repeat;
+  }
+  
+  .faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+  }
+
+  .floating-btn {
+    border-radius: 26.5px;
+    background-color: var(--bold-color);
+    border: 1px solid var(--bold-color);
+    box-shadow: 0 16px 22px -17px var(--bold-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .floating-btn:hover {
+    background-color: #ffffff;
+    color: var(--bold-color);
+  }
+  
+  .floating-btn:focus {
+    outline: none;
+  }
+  
+  .floating-text {
+    background-color: var(--bold-color);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    padding: 7px 15px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 998;
+  }
+
+  @media only screen 
+   and (max-width : 1200px) {
+    .faqMain {
+      height: 1000px;
+    }
+}
+
+@media only screen 
+   and (max-width : 768px) {
+    .faqMain {
+      height: 1000px;
+    }
+}
+
+@media only screen 
+   and (max-width : 480px) {
+  .faqMain {
+    height: 1000px;
+  }
+}

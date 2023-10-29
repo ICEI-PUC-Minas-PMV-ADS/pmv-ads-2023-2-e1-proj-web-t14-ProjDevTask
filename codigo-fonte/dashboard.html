@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTask - Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/dashboard.css">
+</head>
+<body>
+    <main>
+<div class='app'>
+    <main class='project'>
+      <div class='project-info'>
+        <h1>Visão Geral de Tarefas</h1>
+        <div class='project-participants'>
+          <span></span>
+          <span></span>
+          <span></span>
+          <button class='project-participants__add'>Add Participant</button>
+            
+          </div>
+      </div>
+      <div class='project-tasks'>
+        <div class='project-column'>
+          <div class='project-column-heading'>
+            <h2 class='project-column-heading__title'>Backlog</h2><button class='project-column-heading__options'><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+          <div class='task' draggable='true'>
+            <div class='task__tags'><span class='task__tag task__tag--copyright'>Copywriting</span><button class='task__options'><i class="fas fa-ellipsis-h"></i></button></div>
+            <p>Konsep hero title yang menarik</p>
+            <div class='task__stats'>
+              <span><time datetime="2021-11-24T20:00:00"><i class="fas fa-flag"></i>Nov 24</time></span>
+              <span><i class="fas fa-comment"></i>3</span>
+              <span><i class="fas fa-paperclip"></i>7</span>
+              <span class='task__owner'></span>
+            </div>
+          </div>
+          <div class='task' draggable='false'></div>
+          
+                  <div class='task' draggable='false'>
+            <div class='task__tags'>Criar nova Tarefa<button class='task__options'><i class="fas fa-ellipsis-h"></i></button></div>
+            <textarea name="NovaTarefa" id="" cols="40" rows="5" class="textarea_task"></textarea>
+            <div class="wrapper">
+                <div class="option">
+                  <input class="input" type="radio" name="btn" value="option1" checked="">
+                  <div class="btn">
+                    <span class="span">Dev</span>
+                  </div>
+                </div>
+                <div class="option">
+                  <input class="input" type="radio" name="btn" value="option2">
+                  <div class="btn">
+                    <span class="span">Doc</span>
+                  </div>  </div>
+                <div class="option">
+                  <input class="input" type="radio" name="btn" value="option3">
+                  <div class="btn">
+                    <span class="span">Call</span>
+                  </div>  
+                </div>
+              </div>
+              <div class="coolinput">
+                <label for="Categorias" id="catStyle" class="text">Pessoa</label>
+                <select id="categorias" name="Categorias">
+                </select>
+            </div>
+          </div>
+          
+        </div>
+        <div class='project-column'><div class='project-column-heading'>
+            <h2 class='project-column-heading__title'>Em Progresso</h2><button class='project-column-heading__options'><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+            
+          <div class='task' draggable='true'>
+            <div class='task__tags'><span class='task__tag task__tag--design'>UI Design</span><button class='task__options'><i class="fas fa-ellipsis-h"></i></button></div>
+            <p>Replace lorem ipsum text in the final designs</p>
+            <div class='task__stats'>
+              <span><time datetime="2021-11-24T20:00:00"><i class="fas fa-flag"></i>Nov 24</time></span>
+              <span><i class="fas fa-comment"></i>5</span>
+              <span><i class="fas fa-paperclip"></i>5</span> 
+              <span class='task__owner'></span>
+            </div>
+            
+          </div>
+          <div class='task' draggable='false'></div>
+          <div class='task' draggable='false'></div>
+          <div class='task' draggable='false'></div>
+          </div>
+        <div class='project-column'><div class='project-column-heading'>
+            <h2 class='project-column-heading__title'>Revisão</h2><button class='project-column-heading__options'><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+            
+          <div class='task' draggable='true'>
+            <div class='task__tags'><span class='task__tag task__tag--copyright'>Copywriting</span><button class='task__options'><i class="fas fa-ellipsis-h"></i></button></div>
+            <p>Check the company we copied doesn't think we copied them.</p>
+            <div class='task__stats'>
+              <span><time datetime="2021-11-24T20:00:00"><i class="fas fa-flag"></i>Nov 24</time></span>
+              <span><i class="fas fa-comment"></i>4</span>
+              <span><i class="fas fa-paperclip"></i>0</span>
+              <span class='task__owner'></span>
+            </div>
+          </div>
+          <div class='task' draggable='true'>
+            <div class='task__tags'><span class='task__tag task__tag--illustration'>Illustration</span><button class='task__options'><i class="fas fa-ellipsis-h"></i></button></div>
+            <p>Move that one image 5px down to make Phil Happy.</p>
+            <div class='task__stats'>
+              <span><time datetime="2021-11-24T20:00:00"><i class="fas fa-flag"></i>Nov 24</time></span>
+              <span><i class="fas fa-comment"></i>2</span>
+              <span><i class="fas fa-paperclip"></i>2</span>
+              <span class='task__owner'></span>
+            </div>
+          </div>
+          <div class='task' draggable='false'></div>
+          <div class='task' draggable='false'></div>
+          </div>
+        <div class='project-column'><div class='project-column-heading'>
+            <h2 class='project-column-heading__title'>Feito</h2><button class='project-column-heading__options'><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+          
+           <div class='task' draggable='true'>
+            <div class='task__tags'><span class='task__tag task__tag--illustration'>Illustration</span><button class='task__options'><i class="fas fa-ellipsis-h"></i></button></div>
+            <p>Send Advert illustrations over to production company.</p>
+            <div class='task__stats'>
+              <span><time datetime="2021-11-24T20:00:00"><i class="fas fa-flag"></i>Nov 24</time></span>
+              <span><i class="fas fa-comment"></i>12</span>
+              <span><i class="fas fa-paperclip"></i>5</span>
+              <span class='task__owner'></span>
+            </div>
+          </div>
+          <div class='task' draggable='false'></div>
+          <div class='task' draggable='false'></div>
+          <div class='task' draggable='false'></div>
+          </div>
+        
+      </div>
+    </main>
+    <aside class='task-details'>
+      <div class='tag-progress'>
+        <h2>Task Progress</h2>
+        <div class='tag-progress'>
+          <p>Copywriting <span>3/8</span></p>
+          <progress class="progress progress--copyright" max="8" value="3"> 3 </progress>
+        </div>
+        <div class='tag-progress'>
+          <p>Illustration <span>6/10</span></p>
+          <progress class="progress progress--illustration" max="10" value="6"> 6 </progress>
+        </div>
+        <div class='tag-progress'>
+          <p>UI Design <span>2/7</span></p>
+          <progress class="progress progress--design" max="7" value="2"> 2 </progress>
+        </div>
+      </div>
+      <div class='task-activity'>
+        <h2>Recent Activity</h2>
+        <ul>
+          <li>
+            <span class='task-icon task-icon--attachment'><i class="fas fa-paperclip"></i></span>
+            <b>Bruno Candido </b>subiu 3 arquivos
+            <time datetime="2021-11-24T20:00:00">Aug 10</time>
+          </li>
+            <li>
+                <span class='task-icon task-icon--comment'><i class="fas fa-comment"></i></span>
+            <b>Matheus Martins </b> deixou um comentário
+            <time datetime="2021-11-24T20:00:00">Aug 10</time>
+          </li>
+           <li>
+               <span class='task-icon task-icon--edit'><i class="fas fa-pencil-alt"></i></span>
+            <b>Nathan Vitorino  </b>uploaded 3 documents
+            <time datetime="2021-11-24T20:00:00">Aug 11</time>
+          </li>
+            <li>
+                <span class='task-icon task-icon--attachment'><i class="fas fa-paperclip"></i></span>
+            <b>Jose Lucas </b>uploaded 3 documents
+            <time datetime="2021-11-24T20:00:00">Aug 11</time>
+          </li>
+           <li>
+               <span class='task-icon task-icon--comment'><i class="fas fa-comment"></i></span>
+            <b>Bruno Almeida </b> left a comment
+            <time datetime="2021-11-24T20:00:00">Aug 12</time>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+  <script src="./assets/js/dashboard.js"></script>
+</body>
+</html>

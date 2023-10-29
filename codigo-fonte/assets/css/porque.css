@@ -1,0 +1,157 @@
+.porque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    max-width: 100%; 
+}
+
+.porqueTitle {
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 62px 0px;
+    color: var(--bold-color);
+}
+
+.cards {
+    display: flex;
+    gap: 13px;
+    max-width: 100%;
+}
+
+.card {
+    max-width: 453px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 2px 3px 13px 0px #0000001A;
+    border: 1px solid transparent;
+  }
+  
+  .contentCard {
+    padding: 5%;
+    height: 291px;
+    text-align: center;
+  }
+  
+  .imageCard {
+    object-fit: cover;
+    width: 100%;
+    height: 157px;
+  }
+
+  .card1 {
+    background-image: url(../img/card1.png);
+    background-position: center;
+  }
+
+  .card2 {
+    background-image: url(../img/card2.png);
+    background-position: center;
+  }
+
+  .card3 {
+    background-image: url(../img/card3.png);
+    background-position: center;
+  }
+  
+  .titleCard {
+    color: #000000;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .descCard {
+    margin-top: 1.2rem;
+    color: #6B7280;
+    font-size: 0.785rem;
+    line-height: 1.25rem;
+    text-align: left;
+  }
+  
+  @media only screen 
+and (max-width : 1200px) {
+.porque {
+  height: 1000px;
+}
+    .porqueTitle {
+      margin-top: 100px;
+  }
+
+  .card {
+    max-width: 250px;
+    border-radius: 8px;
+  }
+
+  .contentCard {
+    padding: 5%;
+    height: 400px;
+    text-align: center;
+  }
+}
+
+@media only screen 
+   and (max-width : 752px) {
+
+    .porqueTitle {
+      margin-top: 150px;
+      text-align: center;
+  }
+
+    .porque {
+      height: 2000px;
+      width: 100%;
+    }
+
+    .cards {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .card {
+      max-width: 90%;
+      align-self: center;
+    }
+
+    .card1 {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .card2 {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .card3 {
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .contentCard {
+      align-self: center;
+      width: 90%;
+      height: 250px;
+      text-align: center;
+    }
+
+    .titleCard {
+      font-size: 1.2rem;
+    }
+   }
+
+@media only screen 
+   and (max-width : 420px) {
+    .porque {
+        height: 2500px;
+        width: 100%;
+      }
+
+      
+    .card {
+        max-width: 90%;
+        align-self: center;
+        height: 550px;
+      }
+   }

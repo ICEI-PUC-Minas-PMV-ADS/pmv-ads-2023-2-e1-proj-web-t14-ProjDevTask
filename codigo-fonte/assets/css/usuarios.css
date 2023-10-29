@@ -1,0 +1,118 @@
+.categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 630px;
+    background-color: var(--bold-color);
+  }
+  
+  .usuariotitle {
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 62px 0px;
+    color: white;
+  }
+
+  .cardCategorias {
+    width: 308px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 2px 3px 13px 0px #0000001A;
+    border: 1px solid transparent;
+    height: 302px;
+  }
+  
+  .contentCardCategorias {
+    height: 170px;
+    text-align: center;
+  }
+  
+  .imageCardCategoria {
+    object-fit: cover;
+    width: 100%;
+    height: 163px;
+  }
+  
+  
+  .card4 {
+    background-image: url(../img/card4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .card5 {
+    background-image: url(../img/card5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  .card6 {
+    background-image: url(../img/card6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
+  .titleCardCategoria {
+    color: #000000;
+    font-size: 1.4rem;
+    line-height: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .descCardCategoria {
+    margin-top: 1.2rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: left;
+    padding: 0% 5%;
+  }
+  
+  .imagemIconCategoria {
+    width: 16px;
+    line-height: 1.25rem;
+  }
+  
+  .setas {
+    max-width: 60px;
+    max-height: 60px;
+    align-self: center;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: var(--bold-color);
+  }
+  
+  .cardsCategorias {
+    margin-bottom: 25px;
+  }
+
+  .cards {
+    display: flex;
+  }
+  
+  @media only screen 
+     and (max-width : 480px) {
+      .categorias {
+        height: 100%;
+      }
+      .cardCategorias {
+        align-self: center;
+      }
+  }
