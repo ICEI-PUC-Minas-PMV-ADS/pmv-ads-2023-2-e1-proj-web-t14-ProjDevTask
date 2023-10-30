@@ -37,7 +37,7 @@ Clóvis Lemos Tavares
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t14-ProjDevTask/codigo-fonte/indexpage.html" target="_blank">DevTask</a>
 
 # Código-Fonte
 
