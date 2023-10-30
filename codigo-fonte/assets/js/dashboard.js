@@ -25,8 +25,20 @@ function removerTarefa(tarefa) {
   const backlog = tarefa.closest('.backlog');
   if (backlog) {
     tarefa.remove(); 
+    atualizarContagemBacklog();
   } else {
     tarefa.innerHTML = '';
+  }
+}
+
+function atualizarContagemBacklog() {
+  const backlog = document.querySelector('.backlog');
+  const currentTasks = backlog.querySelectorAll('.task').length;
+  const maxTasks = 3;
+
+  if (currentTasks < maxTasks) {
+    adicionarTarefaBtn.disabled = false;
+    textoMaximo.innerHTML = "";
   }
 }
 
@@ -90,7 +102,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         textoMaximo.innerHTML = "";
       }
     }
-  
+    
+    adicionarEventosDeRemocao();
     return false;
   }
 
@@ -119,6 +132,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     user2: '../assets/img/user2.png',
     user3: '../assets/img/user4.png',
     user4: '../assets/img/user3.png',
+    user5: '../assets/img/user5.png',
+    user6: '../assets/img/user6.png',
   };
 
   const selectTag = document.getElementById('categorias');
@@ -186,6 +201,7 @@ textoMaximo.innerHTML = "A tarefa deve ter no mínimo 5 caracteres";
 
 const backlog = document.querySelector('.backlog');
 const currentTasks = backlog.querySelectorAll('.task').length;
+
 const maxTasks = 3;
 if (currentTasks < maxTasks) {
   firstDiv.appendChild(newTask);
@@ -194,8 +210,8 @@ if (currentTasks < maxTasks) {
   textoMaximo.innerHTML = "Você atingiu o limite de tarefas no backlog! Remova ou mova alguma tarefa para continuar adicionando.";
 }
 
+
 adicionarEventosDeRemocao();
 });
-
 adicionarEventosDeRemocao();
 });
