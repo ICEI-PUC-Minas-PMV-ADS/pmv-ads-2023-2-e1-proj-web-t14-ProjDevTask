@@ -31,7 +31,7 @@ Utilizamos o Github Pages, todas as páginas estão conectadas umas as outras, e
 
 ### [1.0.0] - 28/10/2023
 #### Páginas Finalizadas
-- Completa repaginação das páginas de cadastro e login.
+- Completa repaginação das páginas de cadastro e login + criação do index.
 
 ### [0.0.1] - 28/10/2023
 #### Início

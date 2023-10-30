@@ -43,13 +43,18 @@ document.addEventListener('DOMContentLoaded', function () {
         loginForm.addEventListener('submit', function (event) {
             event.preventDefault();
 
-            const storedData = JSON.parse(localStorage.getItem('userData'));
+            const storedData = JSON.parse(localStorage.getItem(emailInput.value));
 
             if (storedData) {
-                const storedEmail = storedData.email;
                 const storedSenha = storedData.senha;
-                if (emailInput.value === storedEmail && senhaInput.value === storedSenha) {
-                    window.href='dashboard.html';
+                if (senhaInput.value === storedSenha) {
+                    const tipoDoUsuario = storedData.tipo;
+                    if (tipoDoUsuario === 'empregador' || tipoDoUsuario === 'gestor') {
+                        window.location.href = 'dashboard.html';
+                    } else if (tipoDoUsuario === 'programador') {
+                        window.location.href = 'dashboardprogramador.html';
+                    } else {
+                    }
                 } else {
                     alert('Login falhou. Verifique suas credenciais.');
                 }

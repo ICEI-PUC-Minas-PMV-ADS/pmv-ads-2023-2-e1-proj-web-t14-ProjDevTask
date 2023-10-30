@@ -68,11 +68,13 @@ h1 {
   cursor: pointer;
   position: relative;
 }
+
 .project-participants__add:after {
   content: "+";
   font-size: 15px;
   color: #969696;
 }
+
 .project-tasks {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -96,7 +98,15 @@ h1 {
   cursor: pointer;
 }
 
+.remover {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
 .task {
+  word-wrap: break-word;
+  overflow: hidden;
   cursor: move;
   background-color: var(--white);
   padding: 1rem;
@@ -105,29 +115,90 @@ h1 {
   box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
   margin-bottom: 1rem;
   border: 3px dashed transparent;
+  min-height: 134px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.textoMax {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5%;
+}
+
+.botao__tarefas {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.botao__tarefas:hover {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.task__add {
+  cursor: move;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 1rem;
+  border: 3px dashed transparent;
+  min-height: 134px;
 }
 .task:hover {
   box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
   border-color: rgba(162, 179, 207, 0.2) !important;
 }
+
 .task p {
   font-size: 15px;
   margin: 1.2rem 0;
 }
+
 .task__tag {
   border-radius: 100px;
   padding: 2px 13px;
   font-size: 12px;
 }
-.task__tag--copyright {
+.task__tag--desenvolvimento {
   color: var(--tag-4-text);
   background-color: var(--tag-4);
 }
-.task__tag--design {
+.task__tag--documentacao {
   color: var(--tag-3-text);
   background-color: var(--tag-3);
 }
-.task__tag--illustration {
+.task__tag--chamada {
   color: var(--tag-2-text);
   background-color: var(--tag-2);
 }
@@ -155,6 +226,7 @@ h1 {
 .task__stats svg {
   margin-right: 5px;
 }
+
 .task__owner {
   width: 25px;
   height: 25px;
@@ -187,6 +259,7 @@ h1 {
   margin-bottom: 1rem;
 }
 .tag-progress p {
+  flex-wrap: wrap;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -194,6 +267,7 @@ h1 {
 .tag-progress p span {
   color: #b4b4b4;
 }
+
 .tag-progress .progress {
   width: 100%;
   -webkit-appearance: none;
@@ -206,22 +280,22 @@ h1 {
 .tag-progress .progress::-webkit-progress-bar, .tag-progress .progress::-webkit-progress-value {
   border-radius: 10px;
 }
-.tag-progress .progress--copyright::-webkit-progress-bar {
+.tag-progress .progress--desenvolvimento::-webkit-progress-bar {
   background-color: #ecd8e6;
 }
-.tag-progress .progress--copyright::-webkit-progress-value {
+.tag-progress .progress--desenvolvimento::-webkit-progress-value {
   background: #d459e8;
 }
-.tag-progress .progress--illustration::-webkit-progress-bar {
+.tag-progress .progress--chamada::-webkit-progress-bar {
   background-color: #dee7e3;
 }
-.tag-progress .progress--illustration::-webkit-progress-value {
+.tag-progress .progress--chamada::-webkit-progress-value {
   background-color: #46bd84;
 }
-.tag-progress .progress--design::-webkit-progress-bar {
+.tag-progress .progress--documentacao::-webkit-progress-bar {
   background-color: #d8e7f4;
 }
-.tag-progress .progress--design::-webkit-progress-value {
+.tag-progress .progress--documentacao::-webkit-progress-value {
   background-color: #08a0f7;
 }
 
@@ -274,6 +348,7 @@ h1 {
   padding: 8px 14px;
   border: 1px solid rgb(219, 213, 213);
 }
+
 .wrapper {
   --font-color-dark: #323232;
   --font-color-light: #FFF;
