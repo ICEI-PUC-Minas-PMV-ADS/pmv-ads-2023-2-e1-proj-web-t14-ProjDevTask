@@ -1,3 +1,15 @@
+ // VERIFICAR SE O USUÁRIO FEZ LOGIN OU NÃO
+function verificarLogin() { 
+  const storedData = JSON.parse(localStorage.getItem('userData'));
+  if (storedData && (storedData.tipo === 'empregador' || storedData.tipo === 'gestor' || storedData.tipo === 'programador')) {
+    console.log('Usuário logado');
+} else {
+  console.log('Usuário não logado');
+    window.location.href = 'login.html';
+}
+}
+
+// CARREGAR USUÁRIOS (FUNCIONÁRIOS) DO ARQUIVO JSON
 function carregarUsuarios() {
   const selectElement = document.getElementById('categorias');
   const xhr = new XMLHttpRequest();
@@ -17,10 +29,14 @@ function carregarUsuarios() {
   xhr.send();
 }
 
+// CARREGAR AS DUAS FUNÇÕES ACIMA QUANDO A PÁGINA FOR CARREGADA
 window.onload = carregarUsuarios;
+window.onload = verificarLogin;
 
+// TEXTO OCULTO MÁXIMO DE CARACTERES
 const textoMaximo = document.querySelector('.textoMax');
 
+// FUNÇÃO PARA REMOVER TAREFA
 function removerTarefa(tarefa) {
   const backlog = tarefa.closest('.backlog');
   if (backlog) {
@@ -31,6 +47,7 @@ function removerTarefa(tarefa) {
   }
 }
 
+// FUNÇÃO PARA ATUALIZAR CONTAGEM DE TAREFAS NO BACKLOG
 function atualizarContagemBacklog() {
   const backlog = document.querySelector('.backlog');
   const currentTasks = backlog.querySelectorAll('.task').length;
@@ -42,6 +59,7 @@ function atualizarContagemBacklog() {
   }
 }
 
+// FUNÇÃO PARA ADICIONAR EVENTOS DE REMOÇÃO DE TAREFAS
 function adicionarEventosDeRemocao() {
   const removeButtons = document.querySelectorAll('.remover');
 
@@ -57,6 +75,7 @@ function adicionarEventosDeRemocao() {
 }
 
 
+// ARRASTAR TAREFAS
 document.addEventListener('DOMContentLoaded', (event) => {
   var dragSrcEl = null;
 
@@ -127,6 +146,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     item.addEventListener('dragend', handleDragEnd, false);
   });
 
+  // FOTOS DOS "FUNCIONÁRIOS"
   const pessoasFotos = {
     user1: '../assets/img/user1.png',
     user2: '../assets/img/user2.png',
@@ -136,6 +156,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     user6: '../assets/img/user6.png',
   };
 
+  // ADICIONAR TAREFA
   const selectTag = document.getElementById('categorias');
   const selectPessoa = document.getElementById('categorias'); 
   const firstDiv = document.querySelector('.project-column-heading__title');
