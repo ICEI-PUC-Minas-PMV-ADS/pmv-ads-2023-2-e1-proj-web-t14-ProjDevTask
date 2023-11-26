@@ -18,7 +18,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Requisitos Associados | RF-01 |
 | Objetivo do Teste | Verificar se o cadastro de novos usuários estão sendo realizados e armazenados corretamente |
 | Passos | 1. Acessar apágina de Login 2. Acessar a opção "Cadastre-se grátis" 3. Preencher todos os campos corretamente 4. Clicar no Botão "Cadastrar" |
-| Critérios de êxito | Os dados inseridos nos campos devem ser armazenados no localStorage  |
+| Critérios de êxito | Os dados inseridos nos campos devem ser aceitos corretamente  |
 | Responsável pela elaborar do caso de Teste | Bruno Almeida |
 
 |Caso de Teste    | CT-03 - Verificar o funcionamento da página de login |
