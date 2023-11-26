@@ -30,8 +30,12 @@ function carregarUsuarios() {
 }
 
 // CARREGAR AS DUAS FUNÇÕES ACIMA QUANDO A PÁGINA FOR CARREGADA
-window.onload = carregarUsuarios;
-window.onload = verificarLogin;
+function carregarPagina() {
+  carregarUsuarios();
+  verificarLogin();
+}
+
+window.onload = carregarPagina;
 
 // TEXTO OCULTO MÁXIMO DE CARACTERES
 const textoMaximo = document.querySelector('.textoMax');
