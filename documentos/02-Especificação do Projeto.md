@@ -71,12 +71,13 @@
 |-------|---------------------------------|----|
 | RF-01 |  Registro de Usuários  | Alta - 01 | 
 | RF-02 |  Login de Usuários     | Alta - 02 |
-| RF-03 |  Feed de Tarefas       | Alta - 03 |
-| RF-04 |  Adicionar Tarefas     | Alta - 04 |
-| RF-05 |  Empregador delegar tarefas   | Alta - 05 |
-| RF-06 |  Programador receber tarefas do Empregador | Alta - 06 |
-| RF-07 |  Programadores marcam tarefas finalizadas  | Alta - 07 |
-| RF-08 |  Grid Chart de Atividade  | Média - 08 |
+| RF-03 |  Validação de Login       | Alta - 03 |
+| RF-04 |  Feed de Tarefas       | Alta - 04 |
+| RF-05 |  Adicionar Tarefas     | Alta - 05 |
+| RF-06 |  Empregador delegar tarefas   | Alta - 06 |
+| RF-07 |  Programador receber tarefas do Empregador | Alta - 07 |
+| RF-08 |  Programadores marcam tarefas finalizadas  | Alta - 08 |
+| RF-09 |  Grid Chart de Atividade  | Média - 09 |
 
 **Prioridade: Alta / Média / Baixa. 
 

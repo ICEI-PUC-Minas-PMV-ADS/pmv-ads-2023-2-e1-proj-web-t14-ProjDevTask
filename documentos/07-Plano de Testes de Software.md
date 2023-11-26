@@ -8,7 +8,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 |Caso de Teste   | CT-01 - Verificar o funcionamento dos links da Página |
 |:---|:---|
 | Requisitos Associados | RNF- 01 a 05|
-| Objetivo do Teste | Verificar se os links da página HOME estão encaminhando para as respectivaspáginas corretamente. |
+| Objetivo do Teste | Verificar se os links da página HOME estão encaminhando para as respectivas páginas corretamente. |
 | Passos | 1. Acessar o navegador 2. Informar o endereço do site 3. visualizar a página HOME 4. Clicar nos links do Header, Main e footer.  |
 | Critérios de êxito | Todos os links da página HOME devem encaminhar os usuários oara as páginas descritas.  |
 | Responsável pela elaborar do caso de Teste | Bruno Almeida |
@@ -18,7 +18,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Requisitos Associados | RF-01 |
 | Objetivo do Teste | Verificar se o cadastro de novos usuários estão sendo realizados e armazenados corretamente |
 | Passos | 1. Acessar apágina de Login 2. Acessar a opção "Cadastre-se grátis" 3. Preencher todos os campos corretamente 4. Clicar no Botão "Cadastrar" |
-| Critérios de êxito | Os dados inseridos nos campos devem ser armazenados no localStorage  |
+| Critérios de êxito | Os dados inseridos nos campos devem ser aceitos corretamente  |
 | Responsável pela elaborar do caso de Teste | Bruno Almeida |
 
 |Caso de Teste    | CT-03 - Verificar o funcionamento da página de login |
