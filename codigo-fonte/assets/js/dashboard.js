@@ -152,27 +152,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   // FOTOS DOS "FUNCIONÁRIOS"
   const pessoasFotos = {
-    user1: '../assets/img/user1.png',
-    user2: '../assets/img/user2.png',
-    user3: '../assets/img/user4.png',
-    user4: '../assets/img/user3.png',
-    user5: '../assets/img/user5.png',
-    user6: '../assets/img/user6.png',
+    user1: '../codigo-fonte/assets/img/user1.png',
+    user2: '../codigo-fonte/assets/img/user2.png',
+    user3: '../codigo-fonte/assets/img/user4.png',
+    user4: '../codigo-fonte/assets/img/user3.png',
+    user5: '../codigo-fonte/assets/img/user5.png',
+    user6: '../codigo-fonte/assets/img/user6.png',
   };
 
   // ADICIONAR TAREFA
-  const selectTag = document.getElementById('categorias');
-  const selectPessoa = document.getElementById('categorias'); 
+  // SELECIONAR PESSOA PARA ADICIONAR FOTO
+  const selectPessoa = document.getElementById('categorias');
   const firstDiv = document.querySelector('.project-column-heading__title');
   const texto = document.querySelector('.textarea_task');
   
   const adicionarTarefaBtn = document.getElementById('adicionarTarefa');
   adicionarTarefaBtn.addEventListener('click', function() {
+   // FOTO PESSOAS
     const selectedPessoa = selectPessoa.value;
     const pessoaFotoURL = pessoasFotos[selectedPessoa];
   
     const selectedTag = document.querySelector('input[name="tag"]:checked').value;
-  
+  // TIPO DE TAREFA
     const tagNames = {
       'dev': 'Desenvolvimento',
       'doc': 'Documentação',
