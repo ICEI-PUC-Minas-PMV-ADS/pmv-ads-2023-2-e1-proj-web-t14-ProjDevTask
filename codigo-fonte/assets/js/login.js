@@ -1,3 +1,4 @@
+console.log(JSON.parse(localStorage.getItem('userData')));
 document.addEventListener('DOMContentLoaded', function () {
     const submitButton = document.getElementById('submitButton');
     const emailInput = document.getElementById('email');
@@ -43,9 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
         loginForm.addEventListener('submit', function (event) {
             event.preventDefault();
 
-            const storedData = JSON.parse(localStorage.getItem(emailInput.value));
+            const storedData = JSON.parse(localStorage.getItem('userData'));
+            const enteredEmail = emailInput.value;
 
-            if (storedData) {
+            if (storedData && storedData.email === enteredEmail) {
                 const storedSenha = storedData.senha;
                 if (senhaInput.value === storedSenha) {
                     const tipoDoUsuario = storedData.tipo;
