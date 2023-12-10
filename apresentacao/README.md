@@ -9,7 +9,7 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 > - Solução Implementada (funcionalidades de software)
 > - Conclusão da elaboração do projeto (pontos positivos, desafios, aprendizado).
 
-[PDF Apresentação](./Slides_Apresentacao)
+[PDF Apresentação](./Slides_Apresentacao.pdf)
 
 > **Links Úteis**:
 > - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
@@ -25,7 +25,7 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 > - resolução HD (720p) ou Full HD (1080p)
 > - formato mp4.
 
-[Video Apresentação](./devtask_videoApresentacao)
+[Video Apresentação](./devtask_videoApresentacao.mp4)
 
 ## Hospedagem
 
